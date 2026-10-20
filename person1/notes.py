@@ -11,3 +11,5 @@ def list_notes():
 def clear_notes():
     notes.clear()
     print("Все заметки удалены")
+
+# Изменение от person1 в конце файла
