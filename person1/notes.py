@@ -1,3 +1,4 @@
+# Изменение от person3 в начале файла
 notes = []
 
 def add_note(text):
