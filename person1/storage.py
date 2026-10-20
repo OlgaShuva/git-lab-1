@@ -13,3 +13,7 @@ def delete_file(filename):
     import os
     os.remove(filename)
     print(f"Файл {filename} удалён")
+
+def read_file(filename):
+    with open(filename, "r", encoding="utf-8") as f:
+        return f.read()
